@@ -20,7 +20,7 @@ function updateClock(){
     hourEl.innerHTML = h;
     minuteEl.innerHTML = m;
     secondEl.innerHTML = s;
-    ampmEl,(innerHTML = ampm);
+    ampmEl.innerHTML = ampm;
 }
 
 setInterval(() => updateClock(), 1000);
